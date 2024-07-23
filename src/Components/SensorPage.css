@@ -1,0 +1,40 @@
+.dashboard {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.car-info-containers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.car-image img {
+    width: 150px;
+    height: auto;
+}
+
+.car-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.car-info h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.car-info p {
+    margin: 5px 0;
+}
+
+.car-status {
+    text-align: right;
+}
+
+.car-status p {
+    margin: 5px 0;
+}
